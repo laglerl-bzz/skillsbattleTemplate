@@ -18,6 +18,7 @@ async function deleteUser(userId) {
 }
 
 async function executeQuery(sql, params) {
+    // TODO: change params
     const connection = await mysql.createConnection({
         user: 'skillsbattle',
         database: 'skillsbattle',

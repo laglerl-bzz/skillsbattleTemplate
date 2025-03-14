@@ -1,6 +1,6 @@
 run whole app
 ```
-node index
+node index / npm run start
 ```
 
 # Frontend
